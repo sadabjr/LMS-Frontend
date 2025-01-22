@@ -9,7 +9,7 @@ import Courses from "./pages/student/Courses";
 import MyLearning from "./pages/student/MyLearning";
 import Profile from "./pages/student/Profile";
 import About from "./pages/About";
-import Contact from "./pages/contact";
+import Contact from "./pages/Contact";
 
 const appRouter = createBrowserRouter([
   {
@@ -44,7 +44,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Contact />,
+        element: <Contact/>,
       },
     ],
   },
