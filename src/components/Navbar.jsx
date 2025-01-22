@@ -45,7 +45,7 @@ const Navbar = () => {
   const navItems = [
     { title: "Home", href: "/" },
     { title: "About", href: "/about" },
-    { title: "Contact", href: "/contact" },
+    // { title: "Contact", href: "/contact" },
   ];
 
   const toggleTheme = () => {

@@ -1,6 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 import HeroSection from "./pages/student/HeroSection";
 import MainLayout from "./layout/MainLayout";
@@ -9,7 +8,6 @@ import Courses from "./pages/student/Courses";
 import MyLearning from "./pages/student/MyLearning";
 import Profile from "./pages/student/Profile";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
 
 const appRouter = createBrowserRouter([
   {
@@ -41,10 +39,6 @@ const appRouter = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
-      },
-      {
-        path: "/contact",
-        element: <Contact/>,
       },
     ],
   },
